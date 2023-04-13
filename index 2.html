@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocailMedia</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/be7960bbeb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- #navbar -->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="socialbook_img/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="socialbook_img/notification.png"></li>
+                <li><img src="socialbook_img/inbox.png"></li>
+                <li><img src="socialbook_img/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="socialbook_img/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="socialbook_img/profile-pic.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- dropdown menu -->
+        <div class="setting-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="socialbook_img/profile-pic.jpg">
+                    <div>
+                        <p>Harshpalsinh R Jadeja</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="socialbook_img/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Hepl us to improve the new Design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="socialbook_img/setting.png" class="setting-icon">
+                    <a href="#">Settigs & Privacy <img src="socialbook_img/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="socialbook_img/help.png" class="setting-icon">
+                    <a href="#">help & Support <img src="socialbook_img/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="socialbook_img/display.png" class="setting-icon">
+                    <a href="#">Display & Accessibility <img src="socialbook_img/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="setting-links">
+                    <img src="socialbook_img/logout.png " class="setting-icon">
+                    <a href="#">Logout <img src="socialbook_img/arrow.png" width="10px" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- profile -->
+    <div class="profile-container">
+        <!-- <img src="socialbook_img/logo.jpg" class="cover-img"> -->
+        <div class="profile-detail">
+
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="socialbook_img/profile-pic.jpg" class="pd-img" alt="">
+                    <div>
+                        <h3>harshpalsinhjadeja_30</h3>
+                        <p>700 Followers - 56 mutal</p>
+                        <img src="socialbook_img/member-1.jpg" alt="">
+                        <img src="socialbook_img/member-2.jpg" alt="">
+                        <img src="socialbook_img/member-3.jpg" alt="">
+                        <img src="socialbook_img/member-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="pd-right">
+
+                <button type="button"><img src="socialbook_img/add-friends.png"> Friend</button>
+                <button type="button"><img src="socialbook_img/message.png" alt=""> Message</button><br>
+                <a href=""><img src="socialbook_img/more.png" alt=""></a>
+
+            </div>
+
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievables things.😊</p>
+                    <hr>
+
+                    <ul>
+                        <li> <img src="socialbook_img/profile-job.png" alt="">  IT Engineering student</li>
+                        <li><img src="socialbook_img/profile-study.png" alt=""> At SVIT, Vasad</li>
+                        <li><img src="socialbook_img/profile-home.png" alt=""> Live in Vadodara</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+
+                    <div class="photo-box">
+                        <div><img src="socialbook_img/post-1.jpg" alt=""></div>
+                        <div><img src="socialbook_img/friend 2.jpg" alt=""></div>
+                        <div><img src="socialbook_img/friend 3.jpg" alt=""></div>
+                        <div><img src="socialbook_img/friend4.jpg" alt=""></div>
+                        <div><img src="socialbook_img/friend 5.jpg" alt=""></div>
+                        <div><img src="socialbook_img/friend 6.jpg" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>700 (56 mutual)</p>
+
+                    <div class="friend-box">
+                        <div><img src="socialbook_img/friend 1.jpg" alt=""></div>
+                        <div><img src="socialbook_img/friend 2.jpg" alt=""></div>
+                        <div><img src="socialbook_img/friend 3.jpg" alt=""></div>
+                        <div><img src="socialbook_img/friend4.jpg" alt=""></div>
+                        <div><img src="socialbook_img/friend 5.jpg" alt=""></div>
+                        <div><img src="socialbook_img/friend 6.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <a href="index 2.html"><img src="socialbook_img/profile-pic.jpg"></a>
+                        <div>
+                            <p>Harshpalsinh R Jadeja</p>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind Harshpalsinh"></textarea>
+
+                        <div class="add-post-links">
+                            <a href="#"><img src="socialbook_img/live-video.png"> Live Video</a>
+                            <a href="#"><img src="socialbook_img/photo.png"> Photo/Video</a>
+                            <a href="#"><img src="socialbook_img/feeling.png"> Feeling/Activity</a>
+                        </div>
+                        <br>
+                        <button class="btn">POST</button><br><br>
+                    </div>
+
+
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <a href="index 2.html"><img src="socialbook_img/profile-pic.jpg"></a>
+                            <div>
+                                <p>harshpalsinhjadeja_30</p>
+                                <span>1 June 2021, 3pm </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <br>
+                    <p class="post-text"> Be a life-long leaner, and strive to develop yourself in all areas throughout
+                        the
+                        course of your
+                        life 🍻 <br>
+                    <h4>NEVER STOP LEARNING, BECAUSE LIFE NEVER STOPS TEACHING.</h4><br> <a>#thoughtoftheday </a>
+                    </p>
+
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="socialbook_img/like-blue.png">1271</div>
+                            <div><img src="socialbook_img/comments.png"> 256</div>
+                            <div><img src="socialbook_img/share.png"> 49</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <a href="index 2.html"><img src="socialbook_img/profile-pic.jpg"><i
+                                    class="fas fa-caret-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1 -->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="socialbook_img/profile-pic.jpg">
+                            <div>
+                                <p>harshpalsinhjadeja_30</p>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <br>
+
+                    <img src="socialbook_img/post-4.jpg" class="post-img">
+                    <p class="post-text">
+                        I don't always take a selfie, but When I do.... <br> <br><a>#itsbeenawhile #perfect #newpost
+                        </a>
+                    </p>
+                    <br>
+
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="socialbook_img/like-blue.png">271</div>
+                            <div><img src="socialbook_img/comments.png"> 72</div>
+                            <div><img src="socialbook_img/share.png"> 49</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="socialbook_img/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div><br>
+                    <span>20 feb 2023, 3pm </span>
+                </div>
+
+                <!-- 2 -->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="socialbook_img/profile-pic.jpg">
+                            <div>
+                                <p>harshpalsinhjadeja_30</p>
+                                <span>Holi 2023</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <br>
+
+                    <img src="socialbook_img/post-5.jpg" class="post-img4">
+                    <p class="post-text">
+                    <br>
+                    </p>
+                    <br>
+
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="socialbook_img/like-blue.png">330</div>
+                            <div><img src="socialbook_img/comments.png"> 82</div>
+                            <div><img src="socialbook_img/share.png"> 44</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="socialbook_img/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div><br>
+                    <span>8 March  2023 </span>
+                </div>
+
+                <!-- 3 -->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="socialbook_img/profile-pic.jpg">
+                            <div>
+                                <p>harshpalsinhjadeja_30</p>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <br>
+
+                    <img src="socialbook_img/post-6.jpg" class="post-img2">
+                    <p class="post-text">
+                        new post after soo long<br>
+                    </p>
+                    <br>
+
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="socialbook_img/like-blue.png">194</div>
+                            <div><img src="socialbook_img/comments.png"> 9</div>
+                            <div><img src="socialbook_img/share.png"> 2</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="socialbook_img/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div><br>
+                    <span>26 Jan 2022 </span>
+                </div>
+
+                <!-- 4 -->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="socialbook_img/profile-pic.jpg">
+                            <div>
+                                <p>harshpalsinhjadeja_30</p>
+                                <span>Junagadh, Gujarat, India</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <br>
+
+                    <img src="socialbook_img/post-7.jpg" class="post-img3">
+                    <p class="post-text">
+                        First photo on new phone<br>
+                    </p>
+                    <br>
+
+                    <div class="post-row">
+                        <div class="activity-icon">
+                            <div><img src="socialbook_img/like-blue.png">330</div>
+                            <div><img src="socialbook_img/comments.png"> 82</div>
+                            <div><img src="socialbook_img/share.png"> 44</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="socialbook_img/profile-pic.jpg"><i class="fas fa-caret-down"></i>
+                        </div>
+                    </div><br>
+                    <span>13 Jan 2021 </span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- footer -->
+    <div class="footer">
+        <p>&#169;2023 - Harshpalsinh R Jadeja </p>
+    </div>
+</body>
+
+<script src="js.js"></script>
+
+</html>
